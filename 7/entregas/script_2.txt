@@ -1,0 +1,17 @@
+joao
+francisco
+decio
+Explicação:
+imprime
+a
+cada
+1
+segundo
+uma
+palavra
+da
+cadeia
+de
+caracteres
+
+Explicação: concatena todos os blocos de caracteres a cada 1 segundo, do arquivo passado como parâmetro do cat, na saída (nosso caso a saída foi o arquivo txt)

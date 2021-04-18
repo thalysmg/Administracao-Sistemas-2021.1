@@ -1,0 +1,3 @@
+123456789
+
+Explicação: imprime na saída passada como argumento os valores de 1 até 9, sem espaço e sem quebra de linha

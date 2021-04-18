@@ -1,0 +1,12 @@
+Valor inicial é menor que o final: 1 10
+Valor inicial é menor que o final: 2 10
+Valor inicial é menor que o final: 3 10
+Valor inicial é menor que o final: 4 10
+Valor inicial é menor que o final: 5 10
+Valor inicial é menor que o final: 6 10
+Valor inicial é menor que o final: 7 10
+Valor inicial é menor que o final: 8 10
+Valor inicial é menor que o final: 9 10
+Valor inicial é igual ao valor final: 10 10
+
+Explicação: enquanto o valor inicial for menor, imprime na tela que o inicial é menor, seguido por ambos os números. Quando o valor inicial for igual ao final, sai do loop e imprime que são iguais.

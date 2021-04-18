@@ -1,0 +1,1 @@
+Explicação: Verifica se exsite um diretório com nome case, se não, cria ele, entra nele e cria os 3 arquivos. Em seguida, faz uma iteração por todos os arquivos presentes no diretório atual, transforma eles para CAIXA ALTA, verifica se existe um arquivo com aquele nome em CAIXA ALTA e se não existir, renomeia o arquivo antigo que estava em lowercase para UPPERCASE.

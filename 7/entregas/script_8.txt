@@ -1,0 +1,6 @@
+Arquivo encontrado
+Diretório não existe ou não encontrado
+Arquivo não encontrado
+Diretório existe
+
+Explicação: Verifica se existe um arquivo ou diretório, pelo nome passado como parâmetro do script na hora da execução

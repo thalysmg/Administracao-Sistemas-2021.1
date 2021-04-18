@@ -1,0 +1,3 @@
+Boa tarde
+
+Explicação: Faz a mesma coisa que o script 10, mas a hora foi armazenada num variável com nome 'HORA'

@@ -1,0 +1,907 @@
+Universidade Federal de Campina Grande – UFCG
+Centro de Engenharia Elétrica e Informática – CEEI
+Departamento de Sistemas e Computação – DSC
+Professor: Reinaldo Gomes
+Disciplina: Administração de Sistemas
+Aluno: Thalys Menezes Cunha Gadelha
+
+Prática 04 - Usuários e Grupos
+
+- Item 1
+Adding user `jose' ...
+Adding new group `jose' (1005) ...
+Adding new user `jose' (1003) with group `jose' ...
+The home directory `/home/jose' already exists.  Not copying from `/etc/skel'.
+Changing the user information for jose
+Enter the new value, or press ENTER for the default
+	Full Name []: 	Room Number []: 
+
+- Item 3
+- Item 3.1
+joao:x:1004:1006::/home/joao:/bin/bash
+
+- Item 3.2
+joao:x:1004:1006::/home/joao:/bin/bash
+
+- Item 4
+- Item 4.1
+joao:x:1006:
+
+- Item 4.2
+joao:!:18698:0:99999:7:::
+
+- Item 4.3
+joao
+jose
+thalys
+
+- Item 5
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:114::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:115::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:109:116:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:110:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+rtkit:x:111:117:RealtimeKit,,,:/proc:/usr/sbin/nologin
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+cups-pk-helper:x:113:120:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+avahi:x:115:121:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:117:123::/var/lib/saned:/usr/sbin/nologin
+nm-openvpn:x:118:124:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+hplip:x:119:7:HPLIP system user,,,:/run/hplip:/bin/false
+whoopsie:x:120:125::/nonexistent:/bin/false
+colord:x:121:126:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:122:127::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:123:128:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:124:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:125:130:Gnome Display Manager:/var/lib/gdm3:/bin/false
+thalys:x:1000:1000:Thalys Menezes,,,:/home/thalys:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+aluno1:x:1001:1003::/home/aluno1:/bin/sh
+aluno2:x:1002:1004::/home/aluno2:/bin/sh
+jose:x:1003:1005::/home/jose:/bin/bash
+joao:x:1004:1006::/home/joao:/bin/bash
+
+- Item 6
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,thalys
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:thalys
+floppy:x:25:
+tape:x:26:
+sudo:x:27:thalys
+audio:x:29:pulse
+dip:x:30:thalys
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:thalys
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+bluetooth:x:112:
+ssl-cert:x:113:
+uuidd:x:114:
+tcpdump:x:115:
+avahi-autoipd:x:116:
+rtkit:x:117:
+ssh:x:118:
+netdev:x:119:
+lpadmin:x:120:thalys
+avahi:x:121:
+scanner:x:122:saned
+saned:x:123:
+nm-openvpn:x:124:
+whoopsie:x:125:
+colord:x:126:
+geoclue:x:127:
+pulse:x:128:
+pulse-access:x:129:
+gdm:x:130:
+lxd:x:131:thalys
+thalys:x:1000:
+sambashare:x:132:thalys
+systemd-coredump:x:999:
+administracao:x:1001:
+contabilidade:x:1002:
+aluno1:x:1003:
+aluno2:x:1004:
+jose:x:1005:
+joao:x:1006:
+
+- Item 7
+- Item 7.1
+jose:x:1005:1005::/home/jose:/bin/sh
+
+- Item 7.2
+joao
+jose
+thalys
+
+- Item 8
+- Item 8.1
+joaquim:x:1006:1007::/home/joaquim:/bin/bash
+
+- Item 8.2
+joao
+joaquim
+jose
+thalys
+
+- Item 9
+- Item 9.1
+maria:x:1007:1008::/home/maria:/bin/bash
+
+- Item 9.2
+joao
+joaquim
+jose
+maria
+thalys
+
+- Item 9.3
+maria : alunos
+
+- Item 10
+- Item 10.1
+ana:x:1008:1008::/home/ana:/bin/bash
+
+- Item 10.2
+ana
+joao
+joaquim
+jose
+maria
+thalys
+
+- Item 10.3
+ana : alunos professores
+
+- Item 11
+- Item 11.1
+luiz:x:1009:1008::/home/luiz:/bin/bash
+
+- Item 11.2
+ana
+joao
+joaquim
+jose
+luiz
+maria
+thalys
+
+- Item 11.3
+luiz : alunos professores tecnicos
+
+- Item 12
+- Item 12.1
+joao.silva:x:1004:1006::/home/joao:/bin/bash
+
+- Item 12.2
+joao.silva : joao
+
+- Item 13
+jose : root
+
+- Item 14
+- Item 14.1
+jose : root tecnicos
+
+- Item 14.2
+administracao:x:1001:
+contabilidade:x:1002:
+aluno1:x:1003:
+aluno2:x:1004:
+joao:x:1006:
+jose:x:1005:
+joaquim:x:1007:
+alunos:x:1008:
+professores:x:1009:ana,luiz
+tecnicos:x:1010:luiz,jose
+
+- Item 15
+jose : root alunos professores
+
+- Item 16
+jose : root tecnicos
+
+- Item 17
+jose : root alunos professores tecnicos
+
+- Item 18
+----------------
+
+- Item 19
+passwd: password expiry information changed.
+
+- Item 20
+jose P 03/12/2021 0 30 7 -1
+
+- Item 21
+- Item 21.1
+passwd: password expiry information changed.
+
+- Item 21.2
+jose P 03/12/2021 0 14 3 -1
+
+- Item 22
+---------------
+
+- Item 23
+- Item 23.1
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+nm-openvpn:x:118:124:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+colord:x:121:126:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+gdm:x:125:130:Gnome Display Manager:/var/lib/gdm3:/bin/false
+
+- Item 23.2
+----------------
+
+- Item 23.3
+----------------
+
+
+- Item 23.4
+joao
+joaquim
+jose
+luiz
+maria
+thalys
+
+- Item 24
+uid=1005(jose) gid=0(root) groups=0(root),1008(alunos),1009(professores),1010(tecnicos)
+
+- Item 25
+----------------
+
+- Item 26
+----------------
+
+- Item 27
+----------------
+
+- Item 28
+- Item 28.1
+Adding user maria to group tecnicos
+
+- Item 28.2
+maria : alunos tecnicos
+
+- Item 29
+- Item 29.1
+Removing user maria from group tecnicos
+
+- Item 29.2
+maria : alunos
+
+- Item 30
+passwd: password expiry information changed.
+
+- Item 31
+----------------
+
+- Item 32
+passwd: password expiry information changed.
+
+- Item 33
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-network
+systemd-resolve
+systemd-timesync
+messagebus
+syslog
+_apt
+tss
+uuidd
+tcpdump
+avahi-autoipd
+usbmux
+rtkit
+dnsmasq
+cups-pk-helper
+speech-dispatcher
+avahi
+kernoops
+saned
+nm-openvpn
+hplip
+whoopsie
+colord
+geoclue
+pulse
+gnome-initial-setup
+gdm
+thalys
+systemd-coredump
+aluno1
+aluno2
+jose
+joaquim
+maria
+luiz
+
+- Item 34
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-network
+systemd-resolve
+systemd-timesync
+messagebus
+syslog
+_apt
+tss
+uuidd
+tcpdump
+avahi-autoipd
+usbmux
+rtkit
+dnsmasq
+cups-pk-helper
+speech-dispatcher
+avahi
+kernoops
+saned
+nm-openvpn
+hplip
+whoopsie
+colord
+geoclue
+pulse
+gnome-initial-setup
+gdm
+thalys
+systemd-coredump
+aluno1
+aluno2
+jose
+joaquim
+maria
+luiz
+
+- Item 35
+aluno1
+aluno2
+_apt
+avahi
+avahi-autoipd
+backup
+bin
+colord
+cups-pk-helper
+daemon
+dnsmasq
+games
+gdm
+geoclue
+gnats
+gnome-initial-setup
+hplip
+irc
+joaquim
+jose
+kernoops
+list
+lp
+luiz
+mail
+man
+maria
+messagebus
+news
+nm-openvpn
+nobody
+proxy
+pulse
+root
+rtkit
+saned
+speech-dispatcher
+sync
+sys
+syslog
+systemd-coredump
+systemd-network
+systemd-resolve
+systemd-timesync
+tcpdump
+thalys
+tss
+usbmux
+uucp
+uuidd
+whoopsie
+www-data
+
+- Item 36
+
+     1	aluno1
+     2	aluno2
+     3	_apt
+     4	avahi
+     5	avahi-autoipd
+     6	backup
+     7	bin
+     8	colord
+     9	cups-pk-helper
+    10	daemon
+    11	dnsmasq
+    12	games
+    13	gdm
+    14	geoclue
+    15	gnats
+    16	gnome-initial-setup
+    17	hplip
+    18	irc
+    19	joaquim
+    20	jose
+    21	kernoops
+    22	list
+    23	lp
+    24	luiz
+    25	mail
+    26	man
+    27	maria
+    28	messagebus
+    29	news
+    30	nm-openvpn
+    31	nobody
+    32	proxy
+    33	pulse
+    34	root
+    35	rtkit
+    36	saned
+    37	speech-dispatcher
+    38	sync
+    39	sys
+    40	syslog
+    41	systemd-coredump
+    42	systemd-network
+    43	systemd-resolve
+    44	systemd-timesync
+    45	tcpdump
+    46	thalys
+    47	tss
+    48	usbmux
+    49	uucp
+    50	uuidd
+    51	whoopsie
+    52	www-data
+    
+- Item 37
+root
+daemon
+bin
+sys
+adm
+tty
+disk
+lp
+mail
+news
+uucp
+man
+proxy
+kmem
+dialout
+fax
+voice
+cdrom
+floppy
+tape
+sudo
+audio
+dip
+www-data
+backup
+operator
+list
+irc
+src
+gnats
+shadow
+utmp
+video
+sasl
+plugdev
+staff
+games
+users
+nogroup
+systemd-journal
+systemd-network
+systemd-resolve
+systemd-timesync
+crontab
+messagebus
+input
+kvm
+render
+syslog
+tss
+bluetooth
+ssl-cert
+uuidd
+tcpdump
+avahi-autoipd
+rtkit
+ssh
+netdev
+lpadmin
+avahi
+scanner
+saned
+nm-openvpn
+whoopsie
+colord
+geoclue
+pulse
+pulse-access
+gdm
+lxd
+thalys
+sambashare
+systemd-coredump
+administracao
+contabilidade
+aluno1
+aluno2
+joao
+jose
+joaquim
+alunos
+tecnicos
+docentes
+
+- Item 38
+root
+daemon
+bin
+sys
+adm
+tty
+disk
+lp
+mail
+news
+uucp
+man
+proxy
+kmem
+dialout
+fax
+voice
+cdrom
+floppy
+tape
+sudo
+audio
+dip
+www-data
+backup
+operator
+list
+irc
+src
+gnats
+shadow
+utmp
+video
+sasl
+plugdev
+staff
+games
+users
+nogroup
+systemd-journal
+systemd-network
+systemd-resolve
+systemd-timesync
+crontab
+messagebus
+input
+kvm
+render
+syslog
+tss
+bluetooth
+ssl-cert
+uuidd
+tcpdump
+avahi-autoipd
+rtkit
+ssh
+netdev
+lpadmin
+avahi
+scanner
+saned
+nm-openvpn
+whoopsie
+colord
+geoclue
+pulse
+pulse-access
+gdm
+lxd
+thalys
+sambashare
+systemd-coredump
+administracao
+contabilidade
+aluno1
+aluno2
+joao
+jose
+joaquim
+alunos
+tecnicos
+docentes
+
+- Item 39
+adm
+administracao
+aluno1
+aluno2
+alunos
+audio
+avahi
+avahi-autoipd
+backup
+bin
+bluetooth
+cdrom
+colord
+contabilidade
+crontab
+daemon
+dialout
+dip
+disk
+docentes
+fax
+floppy
+games
+gdm
+geoclue
+gnats
+input
+irc
+joao
+joaquim
+jose
+kmem
+kvm
+list
+lp
+lpadmin
+lxd
+mail
+man
+messagebus
+netdev
+news
+nm-openvpn
+nogroup
+operator
+plugdev
+proxy
+pulse
+pulse-access
+render
+root
+rtkit
+sambashare
+saned
+sasl
+scanner
+shadow
+src
+ssh
+ssl-cert
+staff
+sudo
+sys
+syslog
+systemd-coredump
+systemd-journal
+systemd-network
+systemd-resolve
+systemd-timesync
+tape
+tcpdump
+tecnicos
+thalys
+tss
+tty
+users
+utmp
+uucp
+uuidd
+video
+voice
+whoopsie
+www-data
+
+- Item 40
+     1	adm
+     2	administracao
+     3	aluno1
+     4	aluno2
+     5	alunos
+     6	audio
+     7	avahi
+     8	avahi-autoipd
+     9	backup
+    10	bin
+    11	bluetooth
+    12	cdrom
+    13	colord
+    14	contabilidade
+    15	crontab
+    16	daemon
+    17	dialout
+    18	dip
+    19	disk
+    20	docentes
+    21	fax
+    22	floppy
+    23	games
+    24	gdm
+    25	geoclue
+    26	gnats
+    27	input
+    28	irc
+    29	joao
+    30	joaquim
+    31	jose
+    32	kmem
+    33	kvm
+    34	list
+    35	lp
+    36	lpadmin
+    37	lxd
+    38	mail
+    39	man
+    40	messagebus
+    41	netdev
+    42	news
+    43	nm-openvpn
+    44	nogroup
+    45	operator
+    46	plugdev
+    47	proxy
+    48	pulse
+    49	pulse-access
+    50	render
+    51	root
+    52	rtkit
+    53	sambashare
+    54	saned
+    55	sasl
+    56	scanner
+    57	shadow
+    58	src
+    59	ssh
+    60	ssl-cert
+    61	staff
+    62	sudo
+    63	sys
+    64	syslog
+    65	systemd-coredump
+    66	systemd-journal
+    67	systemd-network
+    68	systemd-resolve
+    69	systemd-timesync
+    70	tape
+    71	tcpdump
+    72	tecnicos
+    73	thalys
+    74	tss
+    75	tty
+    76	users
+    77	utmp
+    78	uucp
+    79	uuidd
+    80	video
+    81	voice
+    82	whoopsie
+    83	www-data
+    
+- Item 41
+----------------
+
+- Item 42

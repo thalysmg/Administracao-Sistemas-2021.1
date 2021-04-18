@@ -1,0 +1,6 @@
+Informe um nome
+Nao te conheco.
+Informe um nome
+Boa noite Joao.
+
+Explicação: verifica se a string lida no comando read contém Joao ou Jose no inicio da string. Se sim, dá boa noite, se não, imprime 'nao te conheco.'

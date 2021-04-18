@@ -1,0 +1,15 @@
+ ------------- Inicio do arquivo. ------------- 
+Linha 1: #!/bin/bash
+Linha 2: 
+Linha 3: inicio=1
+Linha 4: fim=10
+Linha 5: 
+Linha 6: while [ $inicio -lt $fim ]; do
+Linha 7: echo "Valor inicial é menor que o final: $inicio $fim"
+Linha 8: inicio=$((inicio+1))
+Linha 9: done
+Linha 10: 
+Linha 11: echo "Valor inicial é igual ao valor final: $inicio $fim"
+------------- Final do arquivo. -------------
+
+Explicação: lê o arquivo passado como parâmetro (nesse exemplo o script6) e ecoa (imprime) cada linha do arquivo na saída

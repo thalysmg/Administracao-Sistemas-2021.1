@@ -1,0 +1,3 @@
+Deseja limpar a tela?
+
+Explicação: Lê uma string do teclado, se o valor for S ou s, executa o comando 'clear', limpando o terminal

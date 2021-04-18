@@ -1,0 +1,5 @@
+joao
+francisco
+decio
+
+Explicação: imprime a cada 1 segundo uma palavra da cadeia de caracteres

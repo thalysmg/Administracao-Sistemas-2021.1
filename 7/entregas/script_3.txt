@@ -1,0 +1,8 @@
+script_1.sh
+script_1.txt
+script_2.sh
+script_2.txt
+script_3.sh
+script_3.txt
+
+Explicação: Imprime, a cada 1 segundo, na saída, todos os arquivos do diretório atual

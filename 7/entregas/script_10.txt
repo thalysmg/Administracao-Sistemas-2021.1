@@ -1,0 +1,3 @@
+Boa tarde
+
+Explicação: pega a hora atual e imprime bom dia se for menor que 12, boa tarde se for menor que 18, ou boa noite se for maior que 18
